@@ -361,7 +361,7 @@ code {
   }
   .header {
     height: 300px;
-    max-width: 707px;
+    width: 100%;
     display: grid;
     grid-template-areas:
       'grid11 grid12 grid13'
@@ -372,6 +372,7 @@ code {
   .nav {
     display: block;
     height: 50px;
+    width:100%;
   }
   .navItems {
     margin-top: 48px;
@@ -382,7 +383,7 @@ code {
   }
   .listItem {
     font-size: 13px;
-    max-width: 700px;
+    width: 98%;
     text-align: center;
     border-bottom: 1px solid white;
     margin: 0px;
